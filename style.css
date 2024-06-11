@@ -1,0 +1,21 @@
+@keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  svg {
+    /* Set the rotation point to the center of the SVG */
+    transform-origin: 50% 50%;
+    animation: rotate 120s linear infinite;
+  }
+  body {
+    background-color: black;
+  }
+  .d3-container {
+    width: 100vw;
+    justify-content: center;
+  }
